@@ -22,14 +22,14 @@ export class MemberService {
     return this.database.object('members/' + memberId);
   }
 
-  // updateMember(localUpdatedMember){
-  //   const memberEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
-  //   memberEntryInFirebase.update({title: localUpdatedMember.title,
-  //   artist: localUpdatedMember.artist, description: localUpdatedMember.description});
-  // }
+  updateMember(localUpdatedMember){
+    const memberEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
+    memberEntryInFirebase.update({name: localUpdatedMember.name,
+    cityOfOrigin: localUpdatedMember.cityOfOrigin, description: localUpdatedMember.description, age: localUpdatedMember.age, cityDistrict: localUpdatedMember.cityDistrict});
+  }
 
-  // deleteMember(localMemberToDelete){
-  //   const memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
-  //   memberEntryInFirebase.remove();
-  // }
+  deleteMember(localMemberToDelete){
+    const memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+    memberEntryInFirebase.remove();
+  }
 }

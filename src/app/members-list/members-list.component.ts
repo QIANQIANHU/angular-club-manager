@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MemberService } from '../member.service';
 import { FirebaseListObservable } from 'angularfire2/database';
+import { Member } from '../member.model';
 
 @Component({
   selector: 'app-members-list',
@@ -19,7 +20,8 @@ export class MembersListComponent implements OnInit {
     this.members = this.memberService.getMembers();
   }
 
-  goToDetailPage(clickedMember: Member) {
+  // dont provide clickedMember data type since it gives error
+  goToDetailPage(clickedMember) {
     this.router.navigate(['members', clickedMember.$key]);
   }
 

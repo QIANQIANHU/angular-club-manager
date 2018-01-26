@@ -1,3 +1,24 @@
-<p>
-  edit-member works!
-</p>
+<h4>Edit information</h4>
+
+<label>New Name:</label>
+<input [(ngModel)]="selectedMember.name">
+<br>
+
+<label>New City Of Origin:</label>
+<input [(ngModel)]="selectedMember.cityOfOrigin">
+<br>
+
+<label>New Description:</label>
+<textarea [(ngModel)]="selectedMember.description"></textarea>
+<br>
+
+<label>New Age:</label>
+<input [(ngModel)]="selectedMember.age">
+<br>
+
+<label>New Seattle Area:</label>
+<input [(ngModel)]="selectedMember.cityDistrict">
+<br>
+
+<button (click)="beginUpdatingMember(selectedMember)">Update</button>
+<button (click)="beginDeletingMember(selectedMember)">Delete</button>

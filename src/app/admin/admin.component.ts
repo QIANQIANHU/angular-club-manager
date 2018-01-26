@@ -17,7 +17,7 @@ export class AdminComponent implements OnInit {
   }
 
   submitForm(name: string, cityOfOrigin: string, description: string, age: number, cityDistrict: string) {
-    const newMember: Member = new Member(name, cityOfOrigin, description, parseInt(age, 10), cityDistrict);
+    const newMember: Member = new Member(name, cityOfOrigin, description, age, cityDistrict);
     this.memberService.addMember(newMember);
   }
 
