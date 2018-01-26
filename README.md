@@ -53,6 +53,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * CSS
 * Typescript
 * Angular2/[Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+* [Firebase](https://firebase.google.com/)
 
 ## License
 
