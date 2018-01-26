@@ -16,10 +16,10 @@ This website manages the roster of a club. All data persisted in a connected dat
 
 ## Development server
 
-* Clone GitHub repository to your personal device using terminal command $ git clone https://github.com/yetka/angular-club-manager
+* Clone GitHub repository to your personal device using terminal command `git clone https://github.com/yetka/angular-club-manager`
 * go to root directory of this project
-* run $ npm install
-* run $ bower install
+* run `npm install`
+* run `bower install`
 * run `ng serve` for a dev server
 * navigate to `http://localhost:4200/`;the app will automatically reload if you change any of the source files
 
