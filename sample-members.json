@@ -1,0 +1,20 @@
+{ "members": [{
+    "name": "Gosia",
+    "cityOfOrigin": "Wroclaw",
+    "description": "Some short description about me, my career, family , goals. How I spentd my time, what I like and dislike",
+    "age": "36",
+    "cityDistrict": "Ballard"
+    }, {
+    "name": "Tomek",
+    "cityOfOrigin": "Jastrzebie Zdroj",
+    "description": "Some short description about me, my career, family , goals. How I spentd my time, what I like and dislike",
+    "age": "35",
+    "cityDistrict": "Ballard"
+      }, {
+    "name": "Danka",
+    "cityOfOrigin": "Belhatow",
+    "description": "Some short description about me, my career, family , goals. How I spentd my time, what I like and dislike",
+    "age": "27",
+    "cityDistrict": "Ballard"
+  }]
+}
