@@ -16,7 +16,23 @@ const appRoutes: Routes = [
   {
   path: 'admin',
   component: AdminComponent
-  }
+  },
+  {
+  path: 'about',
+  component: AboutComponent
+  },
+  {
+  path: 'list',
+  component: MembersListComponent
+  },
+  {
+  path: 'admin',
+  component: AdminComponent
+  },
+  {
+  path: 'members/:id',
+  component: MemberDetailComponent
+  },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
