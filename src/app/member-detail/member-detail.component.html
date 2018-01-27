@@ -1,8 +1,9 @@
-<h2>Club Member: {{(memberToDisplay | async)?.name}}</h2>
-
-<ul>
-  <li><strong>City of Origin:</strong> {{(memberToDisplay | async)?.cityOfOrigin}}</li>
-  <li><strong>Description:</strong> {{(memberToDisplay | async)?.description}}</li>
-  <li><strong>Age:</strong> {{(memberToDisplay | async)?.age}}</li>
-  <li><strong>Seattle Area:</strong> {{(memberToDisplay | async)?.cityDistrict}}</li>
-</ul>
+<div class="details">
+  <h1>Club Member: {{(memberToDisplay | async)?.name}}</h1>
+  <ul>
+    <li><strong>City of Origin:</strong> {{(memberToDisplay | async)?.cityOfOrigin}}</li>
+    <li><strong>Description:</strong> {{(memberToDisplay | async)?.description}}</li>
+    <li><strong>Age:</strong> {{(memberToDisplay | async)?.age}}</li>
+    <li><strong>Seattle Area:</strong> {{(memberToDisplay | async)?.cityDistrict}}</li>
+  </ul>
+</div>

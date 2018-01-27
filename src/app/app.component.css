@@ -1,0 +1,15 @@
+.jumbotron {
+  background-color: #333333;
+  text-align: center;
+  font-size: 76px;
+  color: white;
+}
+.container {
+  background-color: #cccccc;
+  padding: 10px;
+  font-family: monospace;
+}
+
+nav {
+  background-color: white;
+}

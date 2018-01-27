@@ -1,0 +1,10 @@
+.panel-default {
+  background-color: #595959;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+ h3 {
+   color: black;
+   font-weight: bold;
+ }
